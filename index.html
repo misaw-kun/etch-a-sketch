@@ -1,0 +1,31 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./index.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="name">etch-a-sketch</h1>
+    </header>
+    <main class="container">
+        <div class="container__half">
+            <div id="grid"></div>
+        </div>
+        <div class="container__half">
+                <div class="slider-contain">
+                    <label id="size" for="size">size: <span id="display">16 x 16</span></label>
+                    <input type="range" min="1" max="64" value="16" id="slider">
+                </div>
+                <div class="button-group">
+                    <input type="color" id="picker" value="#ffcccc">
+                    <button id="colorBtn">Color mode</button>
+                    <button id="randomBtn">Random mode</button>
+                    <button id="eraserBtn">Eraser</button>
+                    <button id="clearBtn">Clear</button>
+                </div>
+        </div>
+    </main>
+    <footer>
+        <p>Made with ❤️ by <a href="https://github.com/misaw-kun">redpanda</a></p>
+    </footer>
+</body>
